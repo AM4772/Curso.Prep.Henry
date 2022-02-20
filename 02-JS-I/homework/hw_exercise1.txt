@@ -1,0 +1,18 @@
+Que son las variables?
+Las variables son contenedores de informacion reutilizable que evitan tener que pedir la info cada vez que se necesita.
+Hay tres formas de declarar variables. A traves del uso de las palabras var, let y const.
+Declarar una variable significa asignarle un nombre a una ubicacion de memoria.
+
+Que son los strings?
+Los strings son un tipo de dato en JS. Es una cadena o hilo de caracteres donde se almacena y manipula texto.
+
+Que es la declaracion if?
+Es una declaracion condicional por la cual JS ejecutara alguna accion para la condicion especifica. Es la mas
+simple de las declaraciones utilizadas para la toma de decisiones.
+
+Que son los valores Booleanos?
+Son un tipo de datos en JS. Solo tienen dos posibilidades: true o false. Habitualmente se utilizan para probar condiciones de expresiones o variables.
+
+Que es el argumento return en funciones?
+Es una declaracion dentro de las funciones de JS que permite devolver el resultado luego de realizar algunas operaciones.
+Es una declaracion opcional dentro de la funcion.

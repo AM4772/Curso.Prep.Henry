@@ -1,0 +1,15 @@
+Que es un for statement?
+Este statement es parte de los loop statements o bucles que facilitan la ejecucion de un conjunto de
+instrucciones o funciones en forma repetitiva mientras alguna condicion sea verdadera. Este tipo de bucle
+ademas, se lo clasifica como controlado a la entrada porque prueba la condicion antes de ejecutar las
+instrucciones.
+A diferencia de los otros bucles, este se forma en una sola linea. Esta compuesto por: 1) condicion de inicializacion;
+2) condicion de prueba; y 3) agregador/desagregador.
+
+Que son &&, || y !?
+&& se traduce en "y", || se traduce en "o", y ! se traduce en negacion de lo que sigue.
+Estos son operadores logicos que habitualmente se utilizan con valores Booleanos (true o false). Cuando estos valores no son
+Booleanos, podrian devolver un valor no Booleano.
+En el caso de !, devuelve false si el operando puede ser convertido a true, de lo contrario, devuelve true.
+Estos operadores se utilizan dentro de expresiones, funciones y demas para permitir conjunciones, disyunciones y/o
+negaciones logicas.

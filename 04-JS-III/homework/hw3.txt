@@ -1,0 +1,9 @@
+Que es un array o arreglo?
+Es un objeto que nos permite almacenar una coleccion de elementos multiples bajo una variable particular.
+No es un tipo de dato primitivo sino un objeto con las siguientes caracteristicas:
+    1 - tamaño ajustable y puede contener una mezcla de tipos de datos
+    2 - no asociativo: no se puede acceder con indices de strings sino con indices de numeros enteros
+    3 - el indice comienza en 0
+    4 - las operaciones de copiado de los arrays crean copias superficiales (las propiedades del original
+        y la copia comparten referencias; es decir que cuando se hace un cambio en cualquiera de los dos,
+        el otro tambien cambia).

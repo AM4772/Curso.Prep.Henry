@@ -1,0 +1,33 @@
+Que son los objetos?
+Los objetos son una coleccion de datos y funcionalidades relacionadas. Consisten de varias variables 
+(llamadas propiedades cuando estan dentro de un objeto) y/o varias funciones (llamadas metodos 
+cuando estan dentro de un objeto) en la forma de pares "key:value" (ejemplo >> nombrepropiedad : valorpropiedad).
+Un objeto es un tipo de dato referencial. A las propiedades que se les asigna un valor referencial, 
+se les da una referencia o puntero a dicho valor. Dicha referencia o puntero apunta a la ubicacion 
+de la memoria donde se almacena el objeto. Las propiedades en si no almacenan el valor.
+
+Que son las propiedades de los objetos?
+Las propiedades toman la forma de pares "key:value":
+        key se refiere al nombre de la propiedad y es una string o simbolo;
+        value puede ser cualquier tipo de dato
+
+Que son los metodos de los objetos'
+Los metodos son funciones y toman la forma de "key:function(){...}":
+        key es el nombre de la funcion y es una string o simbolo;
+        function(){...} contiene la definicion de las tareas u operaciones a realizar
+
+Que es un bucle for...in?
+Es una manera simple de iterar las propiedades de un objeto.
+
+Notacion de puntos vs notacion de corchetes
+Ambas son formas de acceder a las propiedades/metodos de los objetos.
+Para poder utilizar la notacion de puntos, JS debe considerar al identificador (nombre de la propiedad)
+como valido.
+El identificador valido reconoce mayusculas y minusculas; puede contener letras de Unicode, $, _, y
+digitos del 0 al 9; y no puede iniciar con un numero.
+Cuando un identificador no es valido, se debe utilizar la notacion de corchetes.
+En la notacion de corchetes, 
+    1) cuando se crea un objeto con una propiedad con un nombre representado por un numero entero,
+       JS lo convierte automaticamente a string y por ende, al invocarla dentro de los corchetes no necesita de comillas.
+    2) cuando se crea un objeto con una propiedad con un nombre representado por un numero con decimales,
+       las comillas son necesarias dentro de los corchetes al invocarla.

@@ -1,0 +1,10 @@
+Que es un prototype?
+Es el mecanismo por el cual los objetos de JS heredan caracteristicas de cada uno.
+Cada objeto en JS tiene una propiedad incorporada que se llama PROTOTYPE.
+El prototype es un objeto en si mismo por lo que tendra su propio prototype y asi se forma 
+la cadena de prototypes (Prototype Chain). La cadena termina cuando se llega a un prototype que 
+tiene null para su propio prototype.
+
+Que es un contructor?
+Es un template para la creacion de objetos. Define un conjunto de propiedades y metodos que seran 
+comunes para todos los objetos que se inicialicen con el constructor.
